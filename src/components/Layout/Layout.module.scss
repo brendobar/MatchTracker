@@ -1,0 +1,21 @@
+.layout{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+  position: sticky;
+  top: 0;
+  padding: 16px;
+  background: #fff;
+}
+
+.footer{
+  min-height: 100px;
+  background: #8e8e8e;
+  margin-top: auto;
+}
